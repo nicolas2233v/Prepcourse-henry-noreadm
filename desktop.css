@@ -1,0 +1,23 @@
+body { max-width: 100%; }
+.topbar { padding: 16px 34px; }
+.top-links { display: flex; align-items: center; gap: 24px; }
+.top-links a { color: #41687b; font-size: 14px; font-weight: 800; }
+.top-links a:hover { color: #16384b; }
+.mini-cta { font-size: 14px; padding: 12px 18px; }
+.section { padding: 86px 32px; }
+.hero { padding: 48px 32px 118px; }
+.hero-inner { grid-template-columns: minmax(0, 1.08fr) minmax(360px, .78fr); align-items: center; gap: 42px; }
+.hero-content { padding-right: 12px; }
+.hero-panel { padding: 28px; }
+.hero-microproof { max-width: 650px; margin-top: 28px; }
+.cta-stack { display: flex; flex-wrap: wrap; max-width: 100%; }
+.cta-stack .btn { min-width: 245px; width: auto; }
+.feature-grid { grid-template-columns: repeat(4, 1fr); }
+.service-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.service-card { min-height: 460px; transition: transform .28s ease, box-shadow .28s ease; }
+.service-card:hover { transform: translateY(-8px); box-shadow: 0 34px 90px rgba(54, 116, 150, .24); }
+.service-content { padding: 30px; }
+.social-proof-wrap { flex-direction: row; justify-content: space-between; align-items: center; padding: 30px; }
+.chat-carousel img { flex-basis: 280px; max-width: 280px; }
+.stats-grid { grid-template-columns: repeat(4, 1fr); }
+.urgency-box { padding: 42px; }
